@@ -1,0 +1,18 @@
+@use "_variables" as v;
+
+body {
+  margin: 0;
+  font-family: v.$font-main;
+  position: relative;
+  height: 100vh;
+}
+
+h1 {
+  font-family: v.$font-title;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0px 10px;
+}
